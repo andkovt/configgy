@@ -1,0 +1,16 @@
+stringField: "hello"
+intField: 123
+boolField: true
+
+stringArrayField:
+  - "Hello"
+  - "My"
+  - "Name"
+  - "Is"
+  - John
+
+intArrayField:
+  - 1
+  - 4
+  - 5
+  - 10

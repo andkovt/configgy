@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configgy.Yaml", "src\Config
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configgy.Unit", "tests\Configgy.Unit\Configgy.Unit.csproj", "{784F9EE1-0996-4ACA-B287-F545E03D5469}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configgy.Samples.YamlSample", "samples\Configgy.Samples.YamlSample\Configgy.Samples.YamlSample.csproj", "{C1D3B935-91BA-40D5-9947-61F6CFDF0CB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{784F9EE1-0996-4ACA-B287-F545E03D5469}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{784F9EE1-0996-4ACA-B287-F545E03D5469}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{784F9EE1-0996-4ACA-B287-F545E03D5469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D3B935-91BA-40D5-9947-61F6CFDF0CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D3B935-91BA-40D5-9947-61F6CFDF0CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D3B935-91BA-40D5-9947-61F6CFDF0CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D3B935-91BA-40D5-9947-61F6CFDF0CB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
