@@ -1,4 +1,4 @@
-namespace Configgy.Samples.YamlSample;
+namespace AndKovt.Configgy.Samples.YamlSample;
 
 public class AppConfig : IConfig
 {

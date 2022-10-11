@@ -1,4 +1,4 @@
-namespace Configgy.Exception;
+namespace AndKovt.Configgy.Exception;
 
 public class UnknownFieldTypeException : System.Exception
 {

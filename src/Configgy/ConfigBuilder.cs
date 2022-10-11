@@ -1,9 +1,9 @@
 using System.ComponentModel.DataAnnotations;
-using Configgy.Metadata;
-using Configgy.Parsing;
-using Configgy.Source;
+using AndKovt.Configgy.Metadata;
+using AndKovt.Configgy.Parsing;
+using AndKovt.Configgy.Source;
 
-namespace Configgy;
+namespace AndKovt.Configgy;
 
 public class ConfigBuilder<T> where T : IConfig
 {

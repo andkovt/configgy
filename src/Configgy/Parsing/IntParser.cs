@@ -1,6 +1,6 @@
-using Configgy.Exception;
+using AndKovt.Configgy.Exception;
 
-namespace Configgy.Parsing;
+namespace AndKovt.Configgy.Parsing;
 
 public class IntParser : IParser
 {

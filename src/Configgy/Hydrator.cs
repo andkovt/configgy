@@ -1,10 +1,10 @@
 using System.Collections;
-using Configgy.Exception;
-using Configgy.Metadata;
-using Configgy.Parsing;
-using Configgy.Source;
+using AndKovt.Configgy.Exception;
+using AndKovt.Configgy.Metadata;
+using AndKovt.Configgy.Parsing;
+using AndKovt.Configgy.Source;
 
-namespace Configgy;
+namespace AndKovt.Configgy;
 
 public class Hydrator
 {

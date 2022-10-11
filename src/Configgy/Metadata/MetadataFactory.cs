@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Reflection;
-using Configgy.Attributes;
+using AndKovt.Configgy.Attributes;
 
-namespace Configgy.Metadata;
+namespace AndKovt.Configgy.Metadata;
 
 public class MetadataFactory
 {

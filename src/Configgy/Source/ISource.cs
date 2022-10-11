@@ -1,6 +1,6 @@
-using Configgy.Metadata;
+using AndKovt.Configgy.Metadata;
 
-namespace Configgy.Source;
+namespace AndKovt.Configgy.Source;
 
 public interface ISource
 {

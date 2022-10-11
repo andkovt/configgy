@@ -1,4 +1,4 @@
-namespace Configgy;
+namespace AndKovt.Configgy;
 
 /// <summary>
 /// Interface for configuration classes

@@ -1,6 +1,6 @@
-using Configgy.Parsing;
+using AndKovt.Configgy.Parsing;
 
-namespace Configgy.Unit.Parsing;
+namespace AndKovt.Configgy.Unit.Parsing;
 
 public class StringParserTest
 {

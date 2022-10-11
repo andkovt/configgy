@@ -1,4 +1,4 @@
-namespace Configgy.Metadata;
+namespace AndKovt.Configgy.Metadata;
 
 public class FieldMetadata
 {

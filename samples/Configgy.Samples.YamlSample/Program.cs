@@ -1,8 +1,6 @@
-﻿
-
-using Configgy;
-using Configgy.Samples.YamlSample;
-using Configgy.Yaml;
+﻿using AndKovt.Configgy;
+using AndKovt.Configgy.Samples.YamlSample;
+using AndKovt.Configgy.Yaml;
 
 var config = new ConfigBuilder<AppConfig>()
     .AddSource(new YamlSource("config.yml"))

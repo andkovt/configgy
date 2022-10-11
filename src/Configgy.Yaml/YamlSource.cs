@@ -1,8 +1,8 @@
-using Configgy.Metadata;
-using Configgy.Source;
+using AndKovt.Configgy.Metadata;
+using AndKovt.Configgy.Source;
 using YamlDotNet.RepresentationModel;
 
-namespace Configgy.Yaml;
+namespace AndKovt.Configgy.Yaml;
 
 public class YamlSource : ISource
 {

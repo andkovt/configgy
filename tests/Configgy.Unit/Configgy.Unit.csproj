@@ -6,6 +6,10 @@
         <Nullable>enable</Nullable>
 
         <IsPackable>false</IsPackable>
+
+        <AssemblyName>AndKovt.Configgy.Unit</AssemblyName>
+
+        <RootNamespace>AndKovt.Configgy.Unit</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

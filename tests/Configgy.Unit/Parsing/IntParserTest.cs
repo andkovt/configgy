@@ -1,7 +1,7 @@
-using Configgy.Exception;
-using Configgy.Parsing;
+using AndKovt.Configgy.Exception;
+using AndKovt.Configgy.Parsing;
 
-namespace Configgy.Unit.Parsing;
+namespace AndKovt.Configgy.Unit.Parsing;
 
 public class IntParserTest
 {

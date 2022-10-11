@@ -1,4 +1,4 @@
-namespace Configgy.Parsing;
+namespace AndKovt.Configgy.Parsing;
 
 public interface IParser
 {

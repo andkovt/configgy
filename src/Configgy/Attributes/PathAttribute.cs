@@ -1,4 +1,4 @@
-namespace Configgy.Attributes;
+namespace AndKovt.Configgy.Attributes;
 
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Parameter)]
 public class PathAttribute : Attribute
