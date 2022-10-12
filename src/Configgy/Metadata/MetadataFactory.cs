@@ -4,7 +4,7 @@ using AndKovt.Configgy.Attributes;
 
 namespace AndKovt.Configgy.Metadata;
 
-public class MetadataFactory
+public class MetadataFactory : IMetadataFactory
 {
     public ConfigMetadata Create(Type configType, string path = "")
     {

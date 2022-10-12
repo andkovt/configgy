@@ -10,9 +10,9 @@ public class Hydrator
 {
     private readonly IList<IParser> parsers;
     private readonly ISource source;
-    private readonly MetadataFactory metadataFactory;
+    private readonly IMetadataFactory metadataFactory;
 
-    public Hydrator(IList<IParser> parsers, ISource source, MetadataFactory metadataFactory)
+    public Hydrator(IList<IParser> parsers, ISource source, IMetadataFactory metadataFactory)
     {
         this.parsers = parsers;
         this.source = source;
