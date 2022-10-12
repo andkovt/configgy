@@ -14,3 +14,16 @@ intArrayField:
   - 4
   - 5
   - 10
+
+object:
+  stringField: "hello1"
+  intField: 1231
+  boolField: false
+  
+objectArray:
+  - stringField: "hello1"
+    intField: 1231
+    boolField: false
+  - stringField: "hello2"
+    intField: 1232
+    boolField: true

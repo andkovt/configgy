@@ -6,4 +6,5 @@ public class FieldMetadata
     public string Path { get; set; }
     public Type Type { get; set; }
     public bool IsCollection { get; set; }
+    public bool IsNestedConfig { get; set; }
 }
