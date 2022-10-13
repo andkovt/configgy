@@ -43,5 +43,8 @@ public class ConfigBuilder<T> where T : IConfig
         parsers.Add(new IntParser());
         parsers.Add(new BoolParser());
         parsers.Add(new StringParser());
+        parsers.Add(new DoubleParser());
+        parsers.Add(new FloatParser());
+        parsers.Add(new LongParser());
     }
 }

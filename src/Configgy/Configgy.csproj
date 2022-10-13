@@ -6,6 +6,8 @@
         <Nullable>enable</Nullable>
         <AssemblyName>AndKovt.Configgy</AssemblyName>
         <RootNamespace>AndKovt.Configgy</RootNamespace>
+        <RepositoryUrl>https://github.com/andkovt/configgy</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
 </Project>

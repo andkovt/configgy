@@ -1,5 +1,6 @@
 namespace AndKovt.Configgy.Samples.YamlSample;
 
+using AndKovt.Configgy;
 public class AppConfig : IConfig
 {
     public IReadOnlyList<ObjectConfig> ObjectArray { get; set; }
