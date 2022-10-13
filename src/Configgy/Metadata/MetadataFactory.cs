@@ -42,13 +42,17 @@ public class MetadataFactory : IMetadataFactory
     
     private string GetPropertyPath(string basePath, PropertyInfo property)
     {
+        if (!string.IsNullOrEmpty(basePath)) {
+            basePath += ".";
+        }
+        
         var pathAttribute = property.GetCustomAttribute<PathAttribute>();
         if (pathAttribute != null) {
-            return $"{basePath}.{pathAttribute.Path}";
+            return $"{basePath}{pathAttribute.Path}";
         }
 
         var name = property.Name.Substring(0, 1).ToLowerInvariant() + property.Name.Substring(1);
-        return $"{basePath}.{name}";
+        return $"{basePath}{name}";
     }
 
     private IReadOnlyList<PropertyInfo> GetProperties(Type configTypes)
