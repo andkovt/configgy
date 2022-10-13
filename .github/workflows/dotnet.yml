@@ -1,5 +1,8 @@
 name: .NET
 
+  - name: XUnit Viewer
+    uses: AutoModality/action-xunit-viewer@v1.0.1
+
 on:
   push:
     branches: [ "main" ]
@@ -20,4 +23,17 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal --logger:xunit
+    - id: xunit-viewer
+      uses: ./  #use the current project relative to root
+    - name: The generated report
+      run: echo "The report is ${{ steps.xunit-viewer.outputs.report-file }}"
+    - name: Test
+      run: |
+        [ ${{ steps.xunit-viewer.outputs.report-file }} == "test-reports/index.html" ]
+    - name: Attach the report
+      if: always()
+      uses: actions/upload-artifact@v1
+      with:
+        name: test-reports
+        path: ${{ steps.xunit-viewer.outputs.report-dir }}
