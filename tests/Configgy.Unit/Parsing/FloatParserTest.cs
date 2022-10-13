@@ -17,7 +17,7 @@ public class FloatParserTest
         var value = "12.12";
         var result = instance.Parse(value);
         
-        Assert.Equal(12.12, result);
+        Assert.Equal(12.12f, result);
     }
     
     [Fact]
@@ -26,6 +26,6 @@ public class FloatParserTest
         var value = "12,12";
         var result = instance.Parse(value);
         
-        Assert.Equal(12.12, result);
+        Assert.Equal(12.12f, result);
     }
 }
