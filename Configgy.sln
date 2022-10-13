@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configgy.Unit", "tests\Conf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configgy.Samples.YamlSample", "samples\Configgy.Samples.YamlSample\Configgy.Samples.YamlSample.csproj", "{C1D3B935-91BA-40D5-9947-61F6CFDF0CB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configgy.Json", "src\Configgy.Json\Configgy.Json.csproj", "{A2F081DA-BCBE-4197-93AD-11C66635D917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configgy.Samples.JsonSample", "samples\Configgy.Samples.JsonSample\Configgy.Samples.JsonSample.csproj", "{7179B65E-E25F-4837-97AF-7AE7BE5E32F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{C1D3B935-91BA-40D5-9947-61F6CFDF0CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D3B935-91BA-40D5-9947-61F6CFDF0CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1D3B935-91BA-40D5-9947-61F6CFDF0CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F081DA-BCBE-4197-93AD-11C66635D917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F081DA-BCBE-4197-93AD-11C66635D917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F081DA-BCBE-4197-93AD-11C66635D917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F081DA-BCBE-4197-93AD-11C66635D917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7179B65E-E25F-4837-97AF-7AE7BE5E32F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7179B65E-E25F-4837-97AF-7AE7BE5E32F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7179B65E-E25F-4837-97AF-7AE7BE5E32F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7179B65E-E25F-4837-97AF-7AE7BE5E32F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

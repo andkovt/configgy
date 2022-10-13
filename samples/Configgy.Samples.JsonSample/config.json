@@ -1,0 +1,24 @@
+{
+  "stringField": "hello",
+  "intField": 123,
+  "boolField": true,
+  "stringArrayField": ["test1", "test2"],
+  "intArrayField": [1,2,3],
+  "object": {
+    "stringField": "hello1",
+    "intField": 1231,
+    "boolField": false
+  },
+  "objectArray": [
+    {
+      "stringField": "hello1",
+      "intField": 1231,
+      "boolField": false
+    },
+    {
+      "stringField": "hello1",
+      "intField": 1232,
+      "boolField": true
+    }
+  ]
+}
