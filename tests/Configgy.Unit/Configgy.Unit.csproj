@@ -31,4 +31,8 @@
       <ProjectReference Include="..\..\src\Configgy\Configgy.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="TestResults" />
+    </ItemGroup>
+
 </Project>
